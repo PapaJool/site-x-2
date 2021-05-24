@@ -4,6 +4,10 @@ var b = prompt ("Введите значения b", " ");
 var c = prompt ("Введите значения c", " ");
 var miss = -1;
 Dis = (b*b)-(4*a*c);
+if(a == 0 && b == 0 && c != 0)
+{
+	document.write("Корней нет!");
+}
 if (c != 0 && a != 0 && b != 0)
 {	
 if (Dis > 0)
